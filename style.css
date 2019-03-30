@@ -5,7 +5,7 @@
   z-index: 1; /* Stay on top */
   top: 0; /* Stay at the top */
   left: 0;
-  background-color: #111; /* Black */
+  background-color: #0CCBD0; /* Black */
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 20px;
   padding-left: 10px;
@@ -16,13 +16,13 @@
   padding: 6px 8px 6px 16px;
   text-decoration: none;
   font-size: 25px;
-  color: white;
+  color: black;
   display: block;
 }
 
 /* When you mouse over the navigation links, change their color */
 .sidenav a:hover {
-  color: #f1f1f1;
+  color: black;
 }
 
 /* Style page content */
@@ -76,8 +76,8 @@
   position: absolute;
   top: 0;
   left: 0;
-  height: 25px;
-  width: 25px;
+  height: 15px;
+  width: 15px;
   background-color: #eee;
 }
 
@@ -88,7 +88,7 @@
 
 /* When the checkbox is checked, add a blue background */
 .container input:checked ~ .checkmark {
-  background-color: #2196f3;
+  background-color: white;
 }
 
 /* Create the checkmark/indicator (hidden when not checked) */
@@ -105,11 +105,11 @@
 
 /* Style the checkmark/indicator */
 .container .checkmark:after {
-  left: 9px;
-  top: 5px;
+  left: 5px;
+  top: 2px;
   width: 5px;
   height: 10px;
-  border: solid white;
+  border: solid black;
   border-width: 0 3px 3px 0;
   -webkit-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
