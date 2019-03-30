@@ -16,28 +16,50 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+
     <title>Hello, world!</title>
   </head>
   <body>
-    <div class="side-nav">
+    <div class="sidenav">
       <div class="logo-box"></div>
       <a href="#" class="search-options">Location</a>
       <a href="#" class="search-options">Topic</a>
       <a href="#" class="search-options">Rating</a>
+      <button
+        type="button"
+        class="btn btn-primary"
+        style="margin-top: 450px; margin-left: 30px;"
+      >
+        Primary
+      </button>
     </div>
+
     <div
       class="card"
-      style="width: 18rem; margin-left: 50px; margin-top: 50px;"
+      style="width: 60rem; margin-left: 200px; margin-top: 50px;"
     >
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-        <p class="card-text">
-          Some text to build on the card title and make up the bulk of the
-          card's content.
-        </p>
-        <a href="#" class="card-link">Card link</a>
-        <a href="#" class="card-link">Another link</a>
+        <div class="container">
+          <div class="row">
+            <div class="col-2"><img id="userPic" src="img/me.png" /></div>
+            <div class="col-8">
+              <h5 class="card-title">Eddy Yeung ******</h5>
+              <h5 class="card-subtitle mb-2 text-muted">
+                Skills: web dev, python
+              </h5>
+              <h5 class="card-subtitle mb-2 text-muted">
+                Age range: middle school, college
+              </h5>
+            </div>
+            <div class="col-23"><h5>~8 miles away</h5></div>
+          </div>
+        </div>
       </div>
     </div>
 
