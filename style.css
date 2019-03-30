@@ -5,7 +5,7 @@
   z-index: 1; /* Stay on top */
   top: 0; /* Stay at the top */
   left: 0;
-  background-color: #0CCBD0; /* Black */
+  background-color: #0ccbd0; /* Black */
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 20px;
   padding-left: 10px;
@@ -160,9 +160,13 @@
   cursor: pointer; /* Add a pointer on hover */
 }
 
-.bioBttn{
-  margin-left: 500px
+.bioBttn {
+  margin-left: 500px;
 }
-.collapse{
-  margin-left: 500px
+.collapse {
+  margin-left: 500px;
+}
+
+i {
+  color: gold;
 }
